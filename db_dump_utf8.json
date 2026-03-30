@@ -1,0 +1,306 @@
+{
+  "users": {
+    "total_records": 6,
+    "latest_sample_data": [
+      {
+        "_id": "69c9139fce8dfcd0085b58ba",
+        "name": "Test User",
+        "email": "test@example.com",
+        "password": "$2b$12$N6z/A5ErcKrmNxonMtEsr.fHqT9YZafnS9Asie0vphIvGPmv32pLG",
+        "role": "donor",
+        "phone": "",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            0
+          ],
+          "address": ""
+        },
+        "auth_provider": "email",
+        "avatar": "",
+        "badges": [],
+        "totalDonations": 0,
+        "totalMeals": 0,
+        "isVerified": false,
+        "isActive": true,
+        "createdAt": "2026-03-29T11:57:19.210Z",
+        "updatedAt": "2026-03-29T11:57:19.210Z",
+        "__v": 0
+      },
+      {
+        "_id": "69c914c5ce8dfcd0085b58e2",
+        "name": "Test User 4",
+        "email": "test4@example.com",
+        "password": "$2b$12$VVDTrxchkn1YPPzTY8.hWeZ/TBQrM4Xb8dLOSbwVcf3aFsKkJ2Q/C",
+        "role": "donor",
+        "phone": "9876543210",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            0
+          ],
+          "address": ""
+        },
+        "auth_provider": "email",
+        "avatar": "",
+        "badges": [],
+        "totalDonations": 0,
+        "totalMeals": 0,
+        "isVerified": false,
+        "isActive": true,
+        "createdAt": "2026-03-29T12:02:13.928Z",
+        "updatedAt": "2026-03-29T12:02:13.928Z",
+        "__v": 0
+      },
+      {
+        "_id": "69c92de9eff0ca529b629ece",
+        "name": "Akshay Kounthesh Tolem",
+        "email": "akshaykountesh001@gmail.com",
+        "role": "donor",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            0
+          ],
+          "address": ""
+        },
+        "auth_provider": "google",
+        "avatar": "https://lh3.googleusercontent.com/a/ACg8ocL-FB8N8unc_EG49Lhj837sxm13PR8v6Ua1XTHBEwuQNZ8aBis=s96-c",
+        "badges": [],
+        "totalDonations": 0,
+        "totalMeals": 0,
+        "isVerified": true,
+        "isActive": true,
+        "createdAt": "2026-03-29T13:49:29.500Z",
+        "updatedAt": "2026-03-29T13:49:29.500Z",
+        "__v": 0
+      },
+      {
+        "_id": "69c92f80eff0ca529b629efe",
+        "name": "John",
+        "email": "donar@gmail.com",
+        "password": "$2b$12$7xncuSjqPNjd9wT/g4XONuavDZCvinMxHvv69I9dE.8xg1ByMyXja",
+        "role": "donor",
+        "phone": "+91 987654321",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            0
+          ],
+          "address": ""
+        },
+        "auth_provider": "email",
+        "avatar": "",
+        "badges": [],
+        "totalDonations": 3,
+        "totalMeals": 200,
+        "isVerified": false,
+        "isActive": true,
+        "createdAt": "2026-03-29T13:56:16.037Z",
+        "updatedAt": "2026-03-29T16:37:06.329Z",
+        "__v": 0
+      },
+      {
+        "_id": "69c92fa4eff0ca529b629f1d",
+        "name": "John",
+        "email": "ngo@gmail.com",
+        "password": "$2b$12$5VJJCJYQB6BUBMYqVKoBUOgH3PbvGDehifHMsjgx2EDtwQo.0xM9y",
+        "role": "ngo",
+        "phone": "+91 987654321",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            0
+          ],
+          "address": ""
+        },
+        "auth_provider": "email",
+        "avatar": "",
+        "badges": [],
+        "totalDonations": 0,
+        "totalMeals": 0,
+        "isVerified": false,
+        "isActive": true,
+        "createdAt": "2026-03-29T13:56:52.494Z",
+        "updatedAt": "2026-03-29T13:56:52.494Z",
+        "__v": 0
+      },
+      {
+        "_id": "69c92fc8eff0ca529b629f3c",
+        "name": "John",
+        "email": "volunteer@gmail.com",
+        "password": "$2b$12$INKM6CXT/ecL6RX29NThteo09DovIfUY1TrR.xuqkUAddlU4IpTAa",
+        "role": "volunteer",
+        "phone": "+91 987654321",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            0
+          ],
+          "address": ""
+        },
+        "auth_provider": "email",
+        "avatar": "",
+        "badges": [],
+        "totalDonations": 0,
+        "totalMeals": 0,
+        "isVerified": false,
+        "isActive": true,
+        "createdAt": "2026-03-29T13:57:28.067Z",
+        "updatedAt": "2026-03-29T13:57:28.067Z",
+        "__v": 0
+      }
+    ]
+  },
+  "donations": {
+    "total_records": 3,
+    "latest_sample_data": [
+      {
+        "_id": "69c94d8feff0ca529b62a170",
+        "donor": "69c92f80eff0ca529b629efe",
+        "foodType": "Biryani",
+        "category": "non-veg",
+        "quantity": 50,
+        "unit": "plates",
+        "estimatedMeals": 50,
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            82.20545238604988,
+            16.962323630516167
+          ],
+          "address": "Kovvada, Kakinada (Rural), Kakinada, Andhra Pradesh, 533006, India"
+        },
+        "pickupTime": "2026-03-29T04:15:00.000Z",
+        "expiryTime": "2026-03-29T05:30:00.000Z",
+        "cookedTime": "2026-03-29T06:30:00.000Z",
+        "status": "pending",
+        "image": "",
+        "notes": "",
+        "safetyChecked": false,
+        "createdAt": "2026-03-29T16:04:31.622Z",
+        "updatedAt": "2026-03-29T16:04:31.622Z",
+        "__v": 0
+      },
+      {
+        "_id": "69c94e23eff0ca529b62a1c1",
+        "donor": "69c92f80eff0ca529b629efe",
+        "foodType": "Biryani",
+        "category": "veg",
+        "quantity": 50,
+        "unit": "plates",
+        "estimatedMeals": 50,
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            82.20536472135245,
+            16.962479983173818
+          ],
+          "address": "Kovvada, Kakinada (Rural), Kakinada, Andhra Pradesh, 533006, India"
+        },
+        "pickupTime": "2026-03-29T17:15:00.000Z",
+        "expiryTime": "2026-03-29T18:11:00.000Z",
+        "cookedTime": "2026-03-29T07:30:00.000Z",
+        "status": "picked",
+        "image": "",
+        "notes": "",
+        "safetyChecked": false,
+        "createdAt": "2026-03-29T16:06:59.383Z",
+        "updatedAt": "2026-03-29T16:09:04.736Z",
+        "__v": 0,
+        "acceptedBy": "69c92fa4eff0ca529b629f1d",
+        "deliveryOtp": "709773"
+      },
+      {
+        "_id": "69c95532eff0ca529b62a3a5",
+        "donor": "69c92f80eff0ca529b629efe",
+        "foodType": "Pasta",
+        "category": "veg",
+        "quantity": 50,
+        "unit": "packets",
+        "estimatedMeals": 100,
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            82.20536613104586,
+            16.962440123258418
+          ],
+          "address": "Kovvada, Kakinada (Rural), Kakinada, Andhra Pradesh, 533006, India"
+        },
+        "pickupTime": "2026-03-29T17:00:00.000Z",
+        "expiryTime": "2026-03-29T17:30:00.000Z",
+        "cookedTime": "2026-03-29T07:30:00.000Z",
+        "status": "picked",
+        "image": "",
+        "notes": "",
+        "safetyChecked": false,
+        "createdAt": "2026-03-29T16:37:06.320Z",
+        "updatedAt": "2026-03-29T16:38:00.101Z",
+        "__v": 0,
+        "acceptedBy": "69c92fa4eff0ca529b629f1d",
+        "deliveryOtp": "641323"
+      }
+    ]
+  },
+  "events": {
+    "total_records": 0,
+    "latest_sample_data": []
+  },
+  "deliveries": {
+    "total_records": 2,
+    "latest_sample_data": [
+      {
+        "_id": "69c94e81eff0ca529b62a249",
+        "donation": "69c94e23eff0ca529b62a1c1",
+        "volunteer": "69c92fc8eff0ca529b629f3c",
+        "ngo": "69c92fa4eff0ca529b629f1d",
+        "status": "in-transit",
+        "pickupLocation": {
+          "type": "Point",
+          "coordinates": [
+            82.20536472135245,
+            16.962479983173818
+          ],
+          "address": "Kovvada, Kakinada (Rural), Kakinada, Andhra Pradesh, 533006, India"
+        },
+        "deliveryLocation": {
+          "type": "Point",
+          "coordinates": []
+        },
+        "createdAt": "2026-03-29T16:08:33.709Z",
+        "updatedAt": "2026-03-29T16:10:05.222Z",
+        "__v": 0,
+        "pickedAt": "2026-03-29T16:09:04.736Z"
+      },
+      {
+        "_id": "69c95561eff0ca529b62a407",
+        "donation": "69c95532eff0ca529b62a3a5",
+        "volunteer": "69c92fc8eff0ca529b629f3c",
+        "ngo": "69c92fa4eff0ca529b629f1d",
+        "status": "in-transit",
+        "pickupLocation": {
+          "type": "Point",
+          "coordinates": [
+            82.20536613104586,
+            16.962440123258418
+          ],
+          "address": "Kovvada, Kakinada (Rural), Kakinada, Andhra Pradesh, 533006, India"
+        },
+        "deliveryLocation": {
+          "type": "Point",
+          "coordinates": []
+        },
+        "createdAt": "2026-03-29T16:37:53.008Z",
+        "updatedAt": "2026-03-29T16:38:09.707Z",
+        "__v": 0,
+        "pickedAt": "2026-03-29T16:38:00.100Z"
+      }
+    ]
+  }
+}
