@@ -1,4 +1,4 @@
-import connectDB from '@/lib/mongodb';
+import connectDB from '@/lib/db';
 import mongoose from 'mongoose';
 
 export async function GET() {
